@@ -1,63 +1,89 @@
-// Functions Personal Assignment
+// Dao Villar 2/25/14 Functions Assignment Personal
 
-var pizzabase = new Array("thin crust", "cheese burst", "fresh pan", "whole wheat");
-var pizzabaseint = 0;
-var selectedpizzabase = "";
-var pizzasize = new Array("regular", "medium", "large");
-var pizzasizeint = 0;
-var selectedpizzasize = "";
-var pizzatoppings = new Array("chicken salami", "mutton balls", "pork", "capsicum", "onion", "corns", "tomato", "olives", "jalapeno", "mushroom");
-var pizzatoppingint = 0;
-var selectedpizzatopping = "";
 
-function getAlertValue(arrayparam, value, selectiontype) {
-    if (selectiontype == "basetype") {
-        selectedpizzabase = arrayparam[value - 1];
-        return alert("You choose " + selectedpizzabase + " pizza.");
-    } else if (selectiontype == "basesize") {
-        selectedpizzasize = arrayparam[value - 1];
-        return alert("You choose " + selectedpizzasize + " pizza.");
-    } else if (selectiontype == "basetopping") {
-        selectedpizzatopping = arrayparam[value - 1];
-        return alert("You choose " + selectedpizzatopping + " topping for the pizza.");
+// mobile os integer value
+var mobileOsInt = 0;
+// mobile os string value
+var mobileOS = "";
+// mobile carrier integer value
+var mobilecarrierInt = 0;
+// mobile carrier string value
+var mobilecarrier = "";
+// mobile data usage integer value
+var mobileUsageInt = "";
+// result of application
+var result = "Thanks for succesfully entering all the fields of the survey. You are a " + getMobileDataUsageGreatness() + " internet user and you use " + mobileOS + " with " + mobilecarrier + " as your carrier";
+// returns alert based on mobile os integer value
+function getAlertOS(mobileOsIntParam) {
+    if (mobileOsIntParam==1) {
+        mobileOS = "IPHONE";
+    } else if (mobileOsIntParam == 2) {
+        mobileOS = "WINDOWS PHONE";
+    } else if (mobileOsIntParam == 3) {
+        mobileOS = "ANDROID PHONE";
+    } else if (mobileOsIntParam == 4) {
+        mobileOS = "BLACK BERRY";
+    }
+    alert('You are a ' + mobileOS + ' guy');
+}
+// returns alert based on mobile carrier integer value
+function getAlertCarrier(mobilecarrierIntParam) {
+    if (mobilecarrierIntParam == 1) {
+        mobilecarrier = "DIGICEL";
+    } else if (mobilecarrierIntParam == 2) {
+        mobilecarrier = "AT&T";
+    } else if (mobilecarrierIntParam == 3) {
+        mobilecarrier = "VERIZON";
+    }
+    alert('You are a '+mobilecarrier+' user');
+}
+// returns greatness of mobile usage
+function getMobileDataUsageGreatness() {
+    if (mobileUsageInt < 1000) {
+        return "basic";
+    } else if (mobileUsageInt > 1000 && mobileUsageInt < 3000) {
+        return "moderate";
+    } else if (mobileUsageInt > 3000) {
+        return "great";
     }
 
 }
 
-alert("Welcome to pitzzabuddy.");
-
-while ((pizzabaseint == "" || pizzabaseint == 0) && !isNaN(pizzabaseint)) {
-    pizzabaseint = prompt("Please enter \n 1 - for thin crust pizza \n 2 - for cheese burst pizza \n 3 - for fresh pan pizza \n 4 - for whole wheat pizza");
-    if (!(1 <= pizzabaseint && pizzabaseint <= 4)) {
+alert("Welcome to mobile technology survey.");
+// while loop to select the mobile OS
+while ((mobileOsInt == "" || mobileOsInt == 0) && !isNaN(mobileOsInt)) {
+    mobileOsInt = prompt("Please select the mobile OS you use \n 1 - if you use a IPHONE \n 2 - if you use a WINDOWS PHONE \n 3 - if you use a ANDROID PHONE \n 4 - if you use a BLACK BERRY");
+    if (!(1 <= mobileOsInt && mobileOsInt <= 4)) {
         alert("Please enter a value with in 1 and 4 only");
-        pizzabaseint = 0;
+        mobileOsInt = 0;
     }
     else {
-        getAlertValue(pizzabase, pizzabaseint,"basetype");
+        getAlertOS(mobileOsInt);
     }
 }
-
-while ((pizzasizeint == "" || pizzasizeint == 0) && !isNaN(pizzasizeint)) {
-    pizzasizeint = prompt("Please enter \n 1 - for regular pizza \n 2 - for medium pizza \n 3 - for large pizza");
-    if (!(1 <= pizzasizeint && pizzasizeint <= 4)) {
+// while loop to select the mobile carrier
+while ((mobilecarrierInt == "" || mobilecarrierInt == 0) && !isNaN(mobilecarrierInt)) {
+    mobilecarrierInt = prompt("Please enter select the carrier you use \n 1 - if you use DIGICEL \n 2 - if you use AT&T \n 3 - if you use VERIZON");
+    if (!(1 <= mobilecarrierInt && mobilecarrierInt <= 3)) {
         alert("Please enter a value with in 1 and 3 only");
-        pizzasizeint = 0;
+        mobilecarrierInt = 0;
     }
     else {
-        getAlertValue(pizzasize, pizzasizeint, "basesize");
+        getAlertCarrier(mobilecarrierInt);
+    }
+}
+// while loop to select the mobile data usage
+while ((mobileUsageInt == "" || mobileUsageInt == 0) && !isNaN(mobileUsageInt)) {
+    mobileUsageInt = prompt("Please enter data usage in MBs for the month");
+    if (isNaN(mobileUsageInt)) {
+        alert("Please enter a numeric value for data usage in MBs");
+        mobileUsageInt = 0;
+    }
+    else {
+        alert("You use " + mobileUsageInt + " MBs per month");
     }
 }
 
-while ((pizzatoppingint == "" || pizzatoppingint == 0) && !isNaN(pizzatoppingint)) {
-    pizzatoppingint = prompt("Please enter \n 1 - for chicken salami pizza \n 2 - for mutton balls pizza \n 3 - for pork pizza \n 4 - for capsicum pizza \n 5 - for onion pizza \n 6 - for onion pizza \n 7 - for tomato pizza \n 8 - for olives pizza \n 9 - for jalapeno pizza \n 10 - for mushroom pizza");
-    if (!(1 <= pizzatoppingint && pizzatoppingint <= 10)) {
-        alert("Please enter a value with in 1 and 10 only");
-        pizzatoppingint = 0;
-    }
-    else {
-        getAlertValue(pizzatoppings, pizzatoppingint, "basetopping");
-    }
-}
+alert("Thanks for succesfully entering all the fields of the survey. You are a " + getMobileDataUsageGreatness() + " internet user and you use " + mobileOS + " with " + mobilecarrier + " as your carrier");
 
-
-alert("Thanks for ordering a " + selectedpizzasize + " " + selectedpizzatopping + " pizza with " + selectedpizzabase+" base.");
+console.log("Result of application is : " + result);
