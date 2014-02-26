@@ -25,13 +25,13 @@ var result = "Thanks for ordering a " + selectedpizzasize + " " + selectedpizzat
 function getAlertValue(arrayparam, value, selectiontype) {
     if (selectiontype == "basetype") {
         selectedpizzabase = arrayparam[value - 1];
-        return alert("You choose " + selectedpizzabase + " pizza.");
+        return alert("You choose a " + selectedpizzabase + " pizza.");
     } else if (selectiontype == "basesize") {
         selectedpizzasize = arrayparam[value - 1];
-        return alert("You choose " + selectedpizzasize + " pizza.");
+        return alert("You choose a " + selectedpizzasize + " pizza.");
     } else if (selectiontype == "basetopping") {
         selectedpizzatopping = arrayparam[value - 1];
-        return alert("You choose " + selectedpizzatopping + " topping for the pizza.");
+        return alert("You choose the " + selectedpizzatopping + " topping for your pizza.");
     }
 
 }
