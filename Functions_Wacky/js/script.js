@@ -39,7 +39,7 @@ function getAlertValue(arrayparam, value, selectiontype) {
 alert("Welcome to Pizza Buddy!");
 // while loop to select the pizza base type
 while ((pizzabaseint == "" || pizzabaseint == 0) && !isNaN(pizzabaseint)) {
-    pizzabaseint = prompt("Please enter \n 1 - for Thin Crust pizza \n 2 - for Stuffed Crust pizza \n 3 - for Pan Pizza \n 4 - for Whole Wheat pizza");
+    pizzabaseint = prompt("Please enter: \n 1 - for Thin Crust pizza \n 2 - for Stuffed Crust pizza \n 3 - for Pan Pizza \n 4 - for Whole Wheat pizza");
     if (!(1 <= pizzabaseint && pizzabaseint <= 4)) {
         alert("Opps! Please enter a value between 1 and 4.");
         pizzabaseint = 0;
@@ -50,7 +50,7 @@ while ((pizzabaseint == "" || pizzabaseint == 0) && !isNaN(pizzabaseint)) {
 }
 // while loop to select the pizza size type
 while ((pizzasizeint == "" || pizzasizeint == 0) && !isNaN(pizzasizeint)) {
-    pizzasizeint = prompt("Please enter \n 1 - for Regular pizza \n 2 - for Medium pizza \n 3 - for Large pizza");
+    pizzasizeint = prompt("Please enter: \n 1 - for Regular pizza \n 2 - for Medium pizza \n 3 - for Large pizza");
     if (!(1 <= pizzasizeint && pizzasizeint <= 4)) {
         alert("Opps! Please enter a value between 1 and 3.");
         pizzasizeint = 0;
@@ -61,7 +61,7 @@ while ((pizzasizeint == "" || pizzasizeint == 0) && !isNaN(pizzasizeint)) {
 }
 // while loop to select the pizza topping type
 while ((pizzatoppingint == "" || pizzatoppingint == 0) && !isNaN(pizzatoppingint)) {
-    pizzatoppingint = prompt("Please enter \n 1 - for salami pizza \n 2 - for pepperoni pizza \n 3 - for bacon pizza \n 4 - for ham pizza \n 5 - for onion pizza \n 6 - for green peppers pizza \n 7 - for tomato pizza \n 8 - for olives pizza \n 9 - for jalapeno pizza \n 10 - for mushroom pizza");
+    pizzatoppingint = prompt("Please enter: \n 1 - for salami pizza \n 2 - for pepperoni pizza \n 3 - for bacon pizza \n 4 - for ham pizza \n 5 - for onion pizza \n 6 - for green peppers pizza \n 7 - for tomato pizza \n 8 - for olives pizza \n 9 - for jalapeno pizza \n 10 - for mushroom pizza");
     if (!(1 <= pizzatoppingint && pizzatoppingint <= 10)) {
         alert("Opps! Please enter a value between 1 and 10.");
         pizzatoppingint = 0;
@@ -72,6 +72,6 @@ while ((pizzatoppingint == "" || pizzatoppingint == 0) && !isNaN(pizzatoppingint
 }
 
 // final alert
-alert("Thanks for ordering a " + selectedpizzasize + " " + selectedpizzatopping + " pizza with a " + selectedpizzabase + " base.");
+alert("Thanks for ordering a " + selectedpizzasize + " " + selectedpizzatopping + " pizza with a " + selectedpizzabase + " base. We hope you order again soon!");
 
 console.log("Result of application is : " + result);
