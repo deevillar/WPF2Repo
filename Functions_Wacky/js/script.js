@@ -14,7 +14,7 @@ var pizzasizeint = 0;
 // selected pizza size string value
 var selectedpizzasize = "";
 // array for storing pizza topping types
-var pizzatoppings = new Array("salami", "pepperoni", "bacon", "ham", "onion", "green peppers", "tomato", "olives", "jalapeno", "mushroom");
+var pizzatoppings = new Array("Salami", "Pepperoni", "Bacon", "Ham", "Onion", "Green Peppers", "Tomato", "Olives", "Jalapeno", "Mushroom");
 // pizza topping integer value
 var pizzatoppingint = 0;
 // selected pizza topping string value
@@ -72,6 +72,6 @@ while ((pizzatoppingint == "" || pizzatoppingint == 0) && !isNaN(pizzatoppingint
 }
 
 // final alert
-alert("Thanks for ordering a " + selectedpizzasize + " " + selectedpizzatopping + " pizza with " + selectedpizzabase + " base.");
+alert("Thanks for ordering a " + selectedpizzasize + " " + selectedpizzatopping + " pizza with a " + selectedpizzabase + " base.");
 
 console.log("Result of application is : " + result);
