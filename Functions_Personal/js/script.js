@@ -44,7 +44,7 @@ function getMobileDataUsageGreatness() {
     } else if (mobileUsageInt > 1000 && mobileUsageInt < 3000) {
         return "moderate";
     } else if (mobileUsageInt > 3000) {
-        return "great";
+        return "serious";
     }
 
 }
@@ -84,6 +84,6 @@ while ((mobileUsageInt == "" || mobileUsageInt == 0) && !isNaN(mobileUsageInt)) 
     }
 }
 
-alert("Thanks for completing the Mobile Technology Survey! You are a " + getMobileDataUsageGreatness() + " internet user and you use " + mobileOS + " and " + mobilecarrier + " is your carrier.");
+alert("Thanks for completing the Mobile Technology Survey! You are a " + getMobileDataUsageGreatness() + " internet user. You use " + mobileOS + " and " + mobilecarrier + " is your carrier.");
 
 console.log("Result of application is : " + result);
