@@ -29,13 +29,13 @@ function getAlertOS(mobileOsIntParam) {
 // returns alert based on mobile carrier integer value
 function getAlertCarrier(mobilecarrierIntParam) {
     if (mobilecarrierIntParam == 1) {
-        mobilecarrier = "DIGICEL";
+        mobilecarrier = "T-Mobile";
     } else if (mobilecarrierIntParam == 2) {
         mobilecarrier = "AT&T";
     } else if (mobilecarrierIntParam == 3) {
         mobilecarrier = "VERIZON";
     }
-    alert('You are a '+mobilecarrier+' user');
+    alert('You are a '+mobilecarrier+' user!');
 }
 // returns greatness of mobile usage
 function getMobileDataUsageGreatness() {
