@@ -84,6 +84,6 @@ while ((mobileUsageInt == "" || mobileUsageInt == 0) && !isNaN(mobileUsageInt)) 
     }
 }
 
-alert("Thanks for completing the Mobile Technology Survey! You are a " + getMobileDataUsageGreatness() + " internet user. You use " + mobileOS + " and " + mobilecarrier + " is your carrier.");
+alert("Thanks for completing the Mobile Technology Survey! You are a " + getMobileDataUsageGreatness() + " internet user. You use a " + mobileOS + " and " + mobilecarrier + " is your carrier.");
 
 console.log("Result of application is : " + result);
