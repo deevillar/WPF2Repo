@@ -49,12 +49,12 @@ function getMobileDataUsageGreatness() {
 
 }
 
-alert("Welcome to mobile technology survey.");
-// while loop to select the mobile OS
+alert("Welcome to The Mobile Technology Survey!");
+// while loop to select the mobile phone
 while ((mobileOsInt == "" || mobileOsInt == 0) && !isNaN(mobileOsInt)) {
-    mobileOsInt = prompt("Please select the mobile OS you use \n 1 - if you use a IPHONE \n 2 - if you use a WINDOWS PHONE \n 3 - if you use a ANDROID PHONE \n 4 - if you use a BLACK BERRY");
+    mobileOsInt = prompt("Please select the Mobile Phone you use \n 1 - if you use a IPHONE \n 2 - if you use a WINDOWS PHONE \n 3 - if you use a ANDROID PHONE \n 4 - if you use a BLACK BERRY");
     if (!(1 <= mobileOsInt && mobileOsInt <= 4)) {
-        alert("Please enter a value with in 1 and 4 only");
+        alert("Opps! Please enter a number between 1 and 4.");
         mobileOsInt = 0;
     }
     else {
