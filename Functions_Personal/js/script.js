@@ -12,7 +12,7 @@ var mobilecarrier = "";
 // mobile data usage integer value
 var mobileUsageInt = "";
 // result of application
-var result = "Thanks for succesfully entering all the fields of the survey. You are a " + getMobileDataUsageGreatness() + " internet user and you use " + mobileOS + " with " + mobilecarrier + " as your carrier";
+var result = "Thanks for completing the Mobile survey. You are a " + getMobileDataUsageGreatness() + " internet user and you use " + mobileOS + " with " + mobilecarrier + " as your carrier.";
 // returns alert based on mobile os integer value
 function getAlertOS(mobileOsIntParam) {
     if (mobileOsIntParam==1) {
@@ -24,7 +24,7 @@ function getAlertOS(mobileOsIntParam) {
     } else if (mobileOsIntParam == 4) {
         mobileOS = "BLACK BERRY";
     }
-    alert('You are a ' + mobileOS + ' guy');
+    alert('You are a ' + mobileOS + ' user!');
 }
 // returns alert based on mobile carrier integer value
 function getAlertCarrier(mobilecarrierIntParam) {
