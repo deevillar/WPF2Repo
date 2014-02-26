@@ -2,13 +2,13 @@
 // Pizza Buddy ordering system
 
 // array for storing pizza base types
-var pizzabase = new Array("Thin Crust", "Stuffed Crust", "Pan Pizza", "Whole Wheat");
+var pizzabase = new Array("thin crust", "stuffed crust", "pan pizza", "whole wheat");
 // pizza base integer value
 var pizzabaseint = 0;
 // selected pizza base string value
 var selectedpizzabase = "";
 // array for storing pizza base types
-var pizzasize = new Array("Regular", "Medium", "Large");
+var pizzasize = new Array("regular", "medium", "large");
 // pizza size integer value
 var pizzasizeint = 0;
 // selected pizza size string value
