@@ -50,7 +50,7 @@ while ((pizzabaseint == "" || pizzabaseint == 0) && !isNaN(pizzabaseint)) {
 }
 // while loop to select the pizza size type
 while ((pizzasizeint == "" || pizzasizeint == 0) && !isNaN(pizzasizeint)) {
-    pizzasizeint = prompt("Please enter \n 1 - for regular pizza \n 2 - for medium pizza \n 3 - for large pizza");
+    pizzasizeint = prompt("Please enter \n 1 - for Regular pizza \n 2 - for Medium pizza \n 3 - for Large pizza");
     if (!(1 <= pizzasizeint && pizzasizeint <= 4)) {
         alert("Opps! Please enter a value between 1 and 3.");
         pizzasizeint = 0;

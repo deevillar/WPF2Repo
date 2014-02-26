@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d58055b-1e38-4e06-9809-104c9bbe8b1d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Wacky/index.html" afterPath="$PROJECT_DIR$/Functions_Wacky/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Wacky/js/script.js" afterPath="$PROJECT_DIR$/Functions_Wacky/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WPF2Repo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +28,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Functions_Wacky/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="5" selection-start="2690" selection-end="2690" vertical-scroll-proportion="0.33408073" vertical-offset="811" max-vertical-offset="1365">
+            <state line="66" column="28" selection-start="3272" selection-end="3272" vertical-scroll-proportion="0.39461884" vertical-offset="919" max-vertical-offset="1365">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -363,7 +361,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions_Wacky/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="5" selection-start="2690" selection-end="2690" vertical-scroll-proportion="0.33408073" vertical-offset="811" max-vertical-offset="1365">
+        <state line="66" column="28" selection-start="3272" selection-end="3272" vertical-scroll-proportion="0.39461884" vertical-offset="919" max-vertical-offset="1365">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
