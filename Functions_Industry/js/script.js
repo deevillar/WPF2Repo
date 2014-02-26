@@ -13,7 +13,7 @@ var time = 0;
 // interest on the principal for given years
 var interest;
 // result of application
-var result = "The interest on the principal amount of " + principal + "$ at rate of " + rate + "% for a period of " + time + " years is " + getInterestforPrincipal() + "$";
+var result = "The interest on the principal amount of " + principal + "$ at rate of " + rate + "% for a period of " + time + " years is " + getInterestforPrincipal() + "$.";
 // function getRateofInterestbyAge - accepts seniorCitizenParam(y/n) and returns rate (15 for y, 10 for n)
 function getRateofInterestbyAge(seniorCitizenParam) {
     if(seniorCitizenParam == "y"){
@@ -51,6 +51,6 @@ while ((time == "" || time == 0) && !isNaN(time)) {
 
 alert("You will be investing for " + time + " years.");
 
-alert("The interest on the principal amount of " + principal + "$ at rate of " + rate + "% for a period of " + time + " years is " + getInterestforPrincipal() + "$");
+alert("The interest on the principal amount of " + principal + "$ at rate of " + rate + "% for a period of " + time + " years is " + getInterestforPrincipal() + "$.");
 
 console.log("Result of application is : " + result);
