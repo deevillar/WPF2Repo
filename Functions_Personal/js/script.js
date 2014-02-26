@@ -37,7 +37,7 @@ function getAlertCarrier(mobilecarrierIntParam) {
     }
     alert('You are a '+mobilecarrier+' user!');
 }
-// returns greatness of mobile usage
+// returns amount of mobile usage
 function getMobileDataUsageGreatness() {
     if (mobileUsageInt < 1000) {
         return "basic";
