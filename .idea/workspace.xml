@@ -28,8 +28,10 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Functions_Personal/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="54" selection-start="399" selection-end="399" vertical-scroll-proportion="0.47085202" vertical-offset="0" max-vertical-offset="1485">
-              <folding />
+            <state line="2" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="0.06726457" vertical-offset="0" max-vertical-offset="1500">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -330,28 +332,36 @@
     <entry file="file://$PROJECT_DIR$/Functions_Personal/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions_Personal/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions_Personal/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions_Personal/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -392,8 +402,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions_Personal/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="54" selection-start="399" selection-end="399" vertical-scroll-proportion="0.47085202" vertical-offset="0" max-vertical-offset="1485">
-          <folding />
+        <state line="2" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="0.06726457" vertical-offset="0" max-vertical-offset="1500">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
