@@ -12,7 +12,7 @@ var mobilecarrier = "";
 // mobile data usage integer value
 var mobileUsageInt = "";
 // result of application
-var result = "Thanks for completing the Mobile survey. You are a " + getMobileDataUsageGreatness() + " internet user and you use " + mobileOS + " with " + mobilecarrier + " as your carrier.";
+var result = "Thanks for completing the Mobile survey! You are a " + getMobileDataUsageGreatness() + " internet user. You use " + mobileOS + " and " + mobilecarrier + " is your carrier.";
 // returns alert based on mobile os integer value
 function getAlertOS(mobileOsIntParam) {
     if (mobileOsIntParam==1) {
@@ -52,7 +52,7 @@ function getMobileDataUsageGreatness() {
 alert("Welcome to The Mobile Technology Survey!");
 // while loop to select the mobile phone
 while ((mobileOsInt == "" || mobileOsInt == 0) && !isNaN(mobileOsInt)) {
-    mobileOsInt = prompt("Please select the Mobile Phone you use \n 1 - if you use a IPHONE \n 2 - if you use a WINDOWS PHONE \n 3 - if you use a ANDROID PHONE \n 4 - if you use a BLACK BERRY");
+    mobileOsInt = prompt("Please select the Mobile Phone you use: \n 1 - if you use a IPHONE \n 2 - if you use a WINDOWS PHONE \n 3 - if you use a ANDROID PHONE \n 4 - if you use a BLACK BERRY");
     if (!(1 <= mobileOsInt && mobileOsInt <= 4)) {
         alert("Opps! Please enter a number between 1 and 4.");
         mobileOsInt = 0;
@@ -63,7 +63,7 @@ while ((mobileOsInt == "" || mobileOsInt == 0) && !isNaN(mobileOsInt)) {
 }
 // while loop to select the mobile carrier
 while ((mobilecarrierInt == "" || mobilecarrierInt == 0) && !isNaN(mobilecarrierInt)) {
-    mobilecarrierInt = prompt("Please select your carrier \n 1 - if you use T-Mobile \n 2 - if you use AT&T \n 3 - if you use VERIZON");
+    mobilecarrierInt = prompt("Please select your carrier: \n 1 - if you use T-Mobile \n 2 - if you use AT&T \n 3 - if you use VERIZON");
     if (!(1 <= mobilecarrierInt && mobilecarrierInt <= 3)) {
         alert("Opps! Please enter a value with in 1 and 3.");
         mobilecarrierInt = 0;
