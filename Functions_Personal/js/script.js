@@ -74,13 +74,13 @@ while ((mobilecarrierInt == "" || mobilecarrierInt == 0) && !isNaN(mobilecarrier
 }
 // while loop to select the mobile data usage
 while ((mobileUsageInt == "" || mobileUsageInt == 0) && !isNaN(mobileUsageInt)) {
-    mobileUsageInt = prompt("Please enter data usage in MBs for the month");
+    mobileUsageInt = prompt("Please enter your data usage in MB's for the month");
     if (isNaN(mobileUsageInt)) {
-        alert("Please enter a numeric value for data usage in MBs");
+        alert("Opps! Please enter a numeric value for your data usage.");
         mobileUsageInt = 0;
     }
     else {
-        alert("You use " + mobileUsageInt + " MBs per month");
+        alert("You use " + mobileUsageInt + " MB's of data per month.");
     }
 }
 
