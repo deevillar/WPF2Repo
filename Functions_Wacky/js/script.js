@@ -61,7 +61,7 @@ while ((pizzasizeint == "" || pizzasizeint == 0) && !isNaN(pizzasizeint)) {
 }
 // while loop to select the pizza topping type
 while ((pizzatoppingint == "" || pizzatoppingint == 0) && !isNaN(pizzatoppingint)) {
-    pizzatoppingint = prompt("Please enter: \n 1 - for salami pizza \n 2 - for pepperoni pizza \n 3 - for bacon pizza \n 4 - for ham pizza \n 5 - for onion pizza \n 6 - for green peppers pizza \n 7 - for tomato pizza \n 8 - for olives pizza \n 9 - for jalapeno pizza \n 10 - for mushroom pizza");
+    pizzatoppingint = prompt("Please enter: \n 1 - for Salami \n 2 - for Pepperoni \n 3 - for Bacon \n 4 - for Ham \n 5 - for Onion \n 6 - for Green Peppers \n 7 - for Tomato \n 8 - for Olives \n 9 - for Jalapeno \n 10 - for Mushrooms ");
     if (!(1 <= pizzatoppingint && pizzatoppingint <= 10)) {
         alert("Opps! Please enter a value between 1 and 10.");
         pizzatoppingint = 0;
