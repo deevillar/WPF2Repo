@@ -35,7 +35,7 @@ while ((seniorCitizen != "y" || seniorCitizen != "n") && seniorCitizen == "") {
     if ((seniorCitizen != "y" || seniorCitizen != "n") && seniorCitizen == "") {
         alert('Please enter y or n only.');
     } else if (seniorCitizen == "y" || seniorCitizen == "n") {
-        alert('You are eligible for '+getRateofInterestbyAge(seniorCitizen)+'% rate for interest');
+        alert('You are eligible for '+getRateofInterestbyAge(seniorCitizen)+'% interest rate on your investments.');
     }
 }
 // while loop for prompting and setting value of principal
