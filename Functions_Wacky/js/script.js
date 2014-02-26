@@ -39,9 +39,9 @@ function getAlertValue(arrayparam, value, selectiontype) {
 alert("Welcome to Pizza Buddy!");
 // while loop to select the pizza base type
 while ((pizzabaseint == "" || pizzabaseint == 0) && !isNaN(pizzabaseint)) {
-    pizzabaseint = prompt("Please enter \n 1 - for thin crust pizza \n 2 - for stuffed crust pizza \n 3 - for pan pizza \n 4 - for whole wheat pizza");
+    pizzabaseint = prompt("Please enter \n 1 - for Thin Crust pizza \n 2 - for Stuffed Crust pizza \n 3 - for Pan Pizza \n 4 - for Whole Wheat pizza");
     if (!(1 <= pizzabaseint && pizzabaseint <= 4)) {
-        alert("Please enter a value with in 1 and 4 only");
+        alert("Opps! Please enter a value between 1 and 4.");
         pizzabaseint = 0;
     }
     else {
@@ -52,7 +52,7 @@ while ((pizzabaseint == "" || pizzabaseint == 0) && !isNaN(pizzabaseint)) {
 while ((pizzasizeint == "" || pizzasizeint == 0) && !isNaN(pizzasizeint)) {
     pizzasizeint = prompt("Please enter \n 1 - for regular pizza \n 2 - for medium pizza \n 3 - for large pizza");
     if (!(1 <= pizzasizeint && pizzasizeint <= 4)) {
-        alert("Please enter a value with in 1 and 3 only");
+        alert("Opps! Please enter a value between 1 and 3.");
         pizzasizeint = 0;
     }
     else {
@@ -63,7 +63,7 @@ while ((pizzasizeint == "" || pizzasizeint == 0) && !isNaN(pizzasizeint)) {
 while ((pizzatoppingint == "" || pizzatoppingint == 0) && !isNaN(pizzatoppingint)) {
     pizzatoppingint = prompt("Please enter \n 1 - for salami pizza \n 2 - for pepperoni pizza \n 3 - for bacon pizza \n 4 - for ham pizza \n 5 - for onion pizza \n 6 - for green peppers pizza \n 7 - for tomato pizza \n 8 - for olives pizza \n 9 - for jalapeno pizza \n 10 - for mushroom pizza");
     if (!(1 <= pizzatoppingint && pizzatoppingint <= 10)) {
-        alert("Please enter a value with in 1 and 10 only");
+        alert("Opps! Please enter a value between 1 and 10.");
         pizzatoppingint = 0;
     }
     else {
