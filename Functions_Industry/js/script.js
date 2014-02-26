@@ -43,7 +43,7 @@ while ((principal == "" || principal == 0) && !isNaN(principal)) {
     principal = prompt("Please enter the principal for your investment.");
 }
 
-alert("The principal amount is : " + principal+"$");
+alert("The principal amount on your investment is : " + principal+"$");
 // while loop for prompting and setting value of time
 while ((time == "" || time == 0) && !isNaN(time)) {
     time = prompt("Please enter the time for the investment in years - interest will be calculated according to years only");
