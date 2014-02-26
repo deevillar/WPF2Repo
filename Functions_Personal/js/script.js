@@ -63,9 +63,9 @@ while ((mobileOsInt == "" || mobileOsInt == 0) && !isNaN(mobileOsInt)) {
 }
 // while loop to select the mobile carrier
 while ((mobilecarrierInt == "" || mobilecarrierInt == 0) && !isNaN(mobilecarrierInt)) {
-    mobilecarrierInt = prompt("Please enter select the carrier you use \n 1 - if you use DIGICEL \n 2 - if you use AT&T \n 3 - if you use VERIZON");
+    mobilecarrierInt = prompt("Please select your carrier \n 1 - if you use T-Mobile \n 2 - if you use AT&T \n 3 - if you use VERIZON");
     if (!(1 <= mobilecarrierInt && mobilecarrierInt <= 3)) {
-        alert("Please enter a value with in 1 and 3 only");
+        alert("Opps! Please enter a value with in 1 and 3.");
         mobilecarrierInt = 0;
     }
     else {
