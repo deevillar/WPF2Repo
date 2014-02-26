@@ -1,4 +1,5 @@
 // Dao Villar 2/25/14 Functions Assignment Industry
+// Senior investment return calculator
 
 
 // variable seniorCitizen of string type for user if the user is senior citizen or not - it has to be y or n
@@ -32,7 +33,7 @@ function getInterestforPrincipal() {
 while ((seniorCitizen != "y" || seniorCitizen != "n") && seniorCitizen == "") {
     seniorCitizen = prompt("Are you a senior citizen? Enter 'y' for yes and 'n' for no");
     if ((seniorCitizen != "y" || seniorCitizen != "n") && seniorCitizen == "") {
-        alert('Please press enter y or n only.');
+        alert('Please enter y or n only.');
     } else if (seniorCitizen == "y" || seniorCitizen == "n") {
         alert('You are eligible for '+getRateofInterestbyAge(seniorCitizen)+'% rate for interest');
     }
