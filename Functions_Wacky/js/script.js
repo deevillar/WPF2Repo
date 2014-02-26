@@ -1,4 +1,5 @@
 // Dao Villar 2/25/14 Functions Assignment Wacky
+// Pizza Buddy ordering system
 
 // array for storing pizza base types
 var pizzabase = new Array("thin crust", "stuffed crust", "pan pizza", "whole wheat");
@@ -35,7 +36,7 @@ function getAlertValue(arrayparam, value, selectiontype) {
 
 }
 
-alert("Welcome to Pizza Buddy.");
+alert("Welcome to Pizza Buddy!");
 // while loop to select the pizza base type
 while ((pizzabaseint == "" || pizzabaseint == 0) && !isNaN(pizzabaseint)) {
     pizzabaseint = prompt("Please enter \n 1 - for thin crust pizza \n 2 - for stuffed crust pizza \n 3 - for pan pizza \n 4 - for whole wheat pizza");
