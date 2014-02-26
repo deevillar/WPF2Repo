@@ -14,7 +14,7 @@ var pizzasizeint = 0;
 // selected pizza size string value
 var selectedpizzasize = "";
 // array for storing pizza topping types
-var pizzatoppings = new Array("Salami", "Pepperoni", "Bacon", "Ham", "Onion", "Green Peppers", "Tomato", "Olives", "Jalapeno", "Mushroom");
+var pizzatoppings = new Array("salami", "pepperoni", "bacon", "ham", "onion", "green peppers", "tomato", "olives", "jalapeno", "mushroom");
 // pizza topping integer value
 var pizzatoppingint = 0;
 // selected pizza topping string value
