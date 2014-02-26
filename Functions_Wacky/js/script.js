@@ -39,7 +39,7 @@ function getAlertValue(arrayparam, value, selectiontype) {
 alert("Welcome to Pizza Buddy!");
 // while loop to select the pizza base type
 while ((pizzabaseint == "" || pizzabaseint == 0) && !isNaN(pizzabaseint)) {
-    pizzabaseint = prompt("Please enter: \n 1 - for Thin Crust pizza \n 2 - for Stuffed Crust pizza \n 3 - for Deep Dish \n 4 - for Whole Wheat pizza");
+    pizzabaseint = prompt("Please enter: \n 1 - for Thin Crust pizza \n 2 - for Stuffed Crust pizza \n 3 - for Deep Dish pizza \n 4 - for Whole Wheat pizza");
     if (!(1 <= pizzabaseint && pizzabaseint <= 4)) {
         alert("Opps! Please enter a value between 1 and 4.");
         pizzabaseint = 0;
