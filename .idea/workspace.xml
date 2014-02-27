@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d58055b-1e38-4e06-9809-104c9bbe8b1d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Personal/index.html" afterPath="$PROJECT_DIR$/Functions_Personal/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Personal/js/script.js" afterPath="$PROJECT_DIR$/Functions_Personal/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Wacky/index.html" afterPath="$PROJECT_DIR$/Functions_Wacky/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Wacky/js/script.js" afterPath="$PROJECT_DIR$/Functions_Wacky/js/script.js" />
     </list>
     <ignored path="WPF2Repo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,18 +27,18 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Functions_Personal/js/script.js">
+        <entry file="file://$PROJECT_DIR$/Functions_Wacky/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="-2.3256352" vertical-offset="1007" max-vertical-offset="1440">
+            <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1245">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Functions_Personal/index.html">
+        <entry file="file://$PROJECT_DIR$/Functions_Wacky/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="24" selection-start="161" selection-end="161" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="240">
+            <state line="8" column="28" selection-start="156" selection-end="156" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
@@ -58,12 +58,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/testing.html" />
-        <option value="$PROJECT_DIR$/Functions_Wacky/index.html" />
-        <option value="$PROJECT_DIR$/Functions_Wacky/js/script.js" />
         <option value="$PROJECT_DIR$/Functions_Industry/index.html" />
         <option value="$PROJECT_DIR$/Functions_Industry/js/script.js" />
         <option value="$PROJECT_DIR$/Functions_Personal/index.html" />
         <option value="$PROJECT_DIR$/Functions_Personal/js/script.js" />
+        <option value="$PROJECT_DIR$/Functions_Wacky/index.html" />
+        <option value="$PROJECT_DIR$/Functions_Wacky/js/script.js" />
       </list>
     </option>
   </component>
@@ -121,7 +121,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Functions_Personal">
+            <PATH_ELEMENT USER_OBJECT="Functions_Wacky">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -135,7 +135,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Functions_Personal">
+            <PATH_ELEMENT USER_OBJECT="Functions_Wacky">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -311,9 +311,7 @@
     <entry file="file://$PROJECT_DIR$/Functions_Wacky/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="35" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1245">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -359,22 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions_Wacky/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="422">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions_Wacky/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1245">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Functions_Industry/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="28" selection-start="159" selection-end="159" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="240">
@@ -389,16 +371,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions_Personal/index.html">
+    <entry file="file://$PROJECT_DIR$/Functions_Personal/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="161" selection-end="161" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="240">
+        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="-2.3256352" vertical-offset="1007" max-vertical-offset="1440">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions_Personal/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Functions_Personal/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="-2.3256352" vertical-offset="1007" max-vertical-offset="1440">
+        <state line="8" column="24" selection-start="161" selection-end="161" vertical-scroll-proportion="0.2843602" vertical-offset="0" max-vertical-offset="422">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions_Wacky/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="156" selection-end="156" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions_Wacky/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1245">
           <folding />
         </state>
       </provider>
