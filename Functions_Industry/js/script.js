@@ -49,7 +49,7 @@ while ((time == "" || time == 0) && !isNaN(time)) {
     time = prompt("Please enter the number of years you will be investing (interest will be calculated in years only).");
 }
 
-alert("You will be investing for " + time + " years.");
+alert("You will be investing your money for " + time + " years.");
 
 alert("The interest on the principal amount of " + principal + "$ at rate of " + rate + "% for a period of " + time + " years is " + getInterestforPrincipal() + "$.");
 
